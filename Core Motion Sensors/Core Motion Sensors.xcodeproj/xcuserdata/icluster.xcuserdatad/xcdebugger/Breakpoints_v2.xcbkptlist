@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "70B2F646-C7BE-40FD-A7DD-014B6C75ACD2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A8145B4-BC66-41F0-ACD2-C08591DDC84F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core Motion Sensors/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A79A2B22-550A-4299-83DA-FC6DBE0C23EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core Motion Sensors/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A79A2B22-550A-4299-83DA-FC6DBE0C23EB - 120c7827127058e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Core_Motion_Sensors.ViewController.GroX.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Core Motion Sensors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icluster/Desktop/IOSDemos/Core%20Motion%20Sensors/Core%20Motion%20Sensors/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "A79A2B22-550A-4299-83DA-FC6DBE0C23EB - 2815604145151b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Core_Motion_Sensors.ViewController.GroX.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Core Motion Sensors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icluster/Desktop/IOSDemos/Core%20Motion%20Sensors/Core%20Motion%20Sensors/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "A79A2B22-550A-4299-83DA-FC6DBE0C23EB - 2cd61c3a5d6f9c7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Core_Motion_Sensors.ViewController.GroX.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Core Motion Sensors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icluster/Desktop/IOSDemos/Core%20Motion%20Sensors/Core%20Motion%20Sensors/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "A79A2B22-550A-4299-83DA-FC6DBE0C23EB - 3ea458a5cb4f3a4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Core_Motion_Sensors.ViewController.GroX.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Core Motion Sensors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icluster/Desktop/IOSDemos/Core%20Motion%20Sensors/Core%20Motion%20Sensors/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "A79A2B22-550A-4299-83DA-FC6DBE0C23EB - 5f7aa9a35ea29204"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Core_Motion_Sensors.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Core_Motion_Sensors.ViewController"
+                  moduleName = "Core Motion Sensors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icluster/Desktop/IOSDemos/Core%20Motion%20Sensors/Core%20Motion%20Sensors/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  uuid = "A79A2B22-550A-4299-83DA-FC6DBE0C23EB - ddfdc17cb0b414df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Core_Motion_Sensors.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Core_Motion_Sensors.ViewController&gt;"
+                  moduleName = "Core Motion Sensors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icluster/Desktop/IOSDemos/Core%20Motion%20Sensors/Core%20Motion%20Sensors/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "568">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

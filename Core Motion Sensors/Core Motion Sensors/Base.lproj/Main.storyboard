@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="80p-j6-77J">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sensor Data -->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Core_Motion_Sensors" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="DGl-MS-Fu5">
+                                <rect key="frame" x="10" y="54" width="394" height="749"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="DM5-QY-QVP">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="223.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accelerometer Sensor Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnC-Sg-5MS">
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zZB-uN-h5M">
+                                                <rect key="frame" x="0.0" y="58" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M0r-AR-gxU">
+                                                <rect key="frame" x="0.0" y="116" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="11V-Xs-iqs">
+                                                <rect key="frame" x="0.0" y="174" width="394" height="49.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="aVN-Ct-cZl">
+                                        <rect key="frame" x="0.0" y="262.5" width="394" height="224"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gyroscope Sensor Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3G-aT-vFv">
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-Y5-l1Y">
+                                                <rect key="frame" x="0.0" y="58" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FIV-WB-CFi">
+                                                <rect key="frame" x="0.0" y="116" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JkW-M8-NJb">
+                                                <rect key="frame" x="0.0" y="174" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="8pD-Ts-h0f"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bTU-Wc-Ek1">
+                                        <rect key="frame" x="0.0" y="525.5" width="394" height="223.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magnetometer Sensor Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6l4-ZG-BY0">
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d1e-ox-g5O">
+                                                <rect key="frame" x="0.0" y="58" width="394" height="49.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="svA-bf-lGx">
+                                                <rect key="frame" x="0.0" y="115.5" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OtF-bf-kmJ">
+                                                <rect key="frame" x="0.0" y="173.5" width="394" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="fh3-gA-Kj8"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DGl-MS-Fu5" secondAttribute="trailing" constant="10" id="ENI-C3-TM1"/>
+                            <constraint firstItem="DGl-MS-Fu5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fas-QL-S6l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DGl-MS-Fu5" secondAttribute="bottom" constant="10" id="uoP-Cl-HCB"/>
+                            <constraint firstItem="DGl-MS-Fu5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="yXJ-rv-JIE"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="sensor Data" image="timelapse" catalog="system" id="v9h-6A-zp1"/>
+                    <navigationItem key="navigationItem" title="Sensor Data " id="GG5-kB-hfJ"/>
+                    <connections>
+                        <outlet property="GroX" destination="sIe-Y5-l1Y" id="KPL-TP-axb"/>
+                        <outlet property="GroY" destination="FIV-WB-CFi" id="HTa-EU-DrV"/>
+                        <outlet property="GroZ" destination="JkW-M8-NJb" id="CDU-4S-U8a"/>
+                        <outlet property="MagX" destination="d1e-ox-g5O" id="oGi-UZ-bvE"/>
+                        <outlet property="MagY" destination="svA-bf-lGx" id="OBS-BP-Acv"/>
+                        <outlet property="MagZ" destination="OtF-bf-kmJ" id="Yk0-sg-lU6"/>
+                        <outlet property="accX" destination="zZB-uN-h5M" id="puJ-yb-2db"/>
+                        <outlet property="accY" destination="M0r-AR-gxU" id="Pcs-dv-VXg"/>
+                        <outlet property="accZ" destination="11V-Xs-iqs" id="Dps-9H-HYb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2033" y="-74"/>
+        </scene>
+        <!--activitis-->
+        <scene sceneID="IuL-Ow-6Ww">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zJE-av-Ev7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="zfR-cq-zpx" customClass="ActivityIndicatorViewController" customModule="Core_Motion_Sensors" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jWD-Eb-Zfz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="activityIndicator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25v-So-AoM">
+                                <rect key="frame" x="140" y="194" width="134" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Z6Q-W7-Uot"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Todays Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3m-UJ-w74">
+                                <rect key="frame" x="131.5" y="437.5" width="151" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just a moment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwi-aY-dkc">
+                                <rect key="frame" x="86.5" y="508.5" width="241" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Activity is" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjP-QP-9Bl">
+                                <rect key="frame" x="151" y="119" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dHG-ID-b6X"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="25v-So-AoM" firstAttribute="top" secondItem="dHG-ID-b6X" secondAttribute="top" constant="150" id="AUn-cR-MFK"/>
+                            <constraint firstItem="25v-So-AoM" firstAttribute="centerX" secondItem="jWD-Eb-Zfz" secondAttribute="centerX" id="KUo-Hz-gYn"/>
+                            <constraint firstItem="jwi-aY-dkc" firstAttribute="centerX" secondItem="jWD-Eb-Zfz" secondAttribute="centerX" id="KgK-fe-OR9"/>
+                            <constraint firstItem="Y3m-UJ-w74" firstAttribute="centerY" secondItem="jWD-Eb-Zfz" secondAttribute="centerY" id="Nsi-ol-Ihl"/>
+                            <constraint firstItem="sjP-QP-9Bl" firstAttribute="top" secondItem="dHG-ID-b6X" secondAttribute="top" constant="75" id="PBX-Ho-88u"/>
+                            <constraint firstItem="jwi-aY-dkc" firstAttribute="top" secondItem="Y3m-UJ-w74" secondAttribute="bottom" constant="50" id="TdQ-iX-Foh"/>
+                            <constraint firstItem="Y3m-UJ-w74" firstAttribute="centerX" secondItem="jWD-Eb-Zfz" secondAttribute="centerX" id="Wh3-ql-6Lb"/>
+                            <constraint firstItem="sjP-QP-9Bl" firstAttribute="centerX" secondItem="jWD-Eb-Zfz" secondAttribute="centerX" id="q5A-9U-L2Z"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="activitis" image="waveform.path.ecg" catalog="system" id="r9n-en-8fh"/>
+                    <connections>
+                        <outlet property="activityIndicatorText" destination="25v-So-AoM" id="4zx-7i-Fnl"/>
+                        <outlet property="steps" destination="jwi-aY-dkc" id="PrQ-6A-RxR"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2031.8840579710147" y="639.50892857142856"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6Rc-jr-zzV">
+            <objects>
+                <tabBarController id="80p-j6-77J" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8nJ-mP-4PY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zfR-cq-zpx" kind="relationship" relationship="viewControllers" id="xrr-ht-Tbl"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="8Hd-RF-HBL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jb4-Nx-d8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="493" y="903"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="timelapse" catalog="system" width="128" height="122"/>
+        <image name="waveform.path.ecg" catalog="system" width="128" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
